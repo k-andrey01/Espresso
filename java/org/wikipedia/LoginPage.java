@@ -13,10 +13,10 @@ public class LoginPage {
         onView(allOf(withId(R.id.create_account_login_button), isDisplayed())).perform(click());
     }
     public void enterLogin(){
-        onView(allOf(withHint("Username"),isDisplayed())).perform(typeText("AnVKazancev"));
+        onView(allOf(withHint("Username"),isDisplayed())).perform(typeText(""));
     }
     public void enterPassword(){
-        onView(allOf(withHint("Password"), isDisplayed())).perform(typeText("fifa2014"));
+        onView(allOf(withHint("Password"), isDisplayed())).perform(typeText(""));
     }
     public void clickLogin(){
         onView(allOf(withId(R.id.login_button), isDisplayed())).perform(click());
